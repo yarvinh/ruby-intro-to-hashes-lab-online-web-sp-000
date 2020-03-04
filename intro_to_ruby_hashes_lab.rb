@@ -21,7 +21,7 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
-	monopoly = {:rent_in_dollars => {:value => 25,:value_2 => {}, :value_3 => {}}}
+	monopoly = {:rent_in_dollars => {:value => 25,:rent_in_dollars => 25, :value_3 => {}}}
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 
 end
